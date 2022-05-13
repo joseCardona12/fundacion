@@ -1,0 +1,159 @@
+.content__Ginvestigacion{
+}
+
+.content__Ginvestigacion .info__investigacion{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.content__Ginvestigacion .info__investigacion .item1__investigacion img{
+
+    width: 100%;
+
+}
+
+.content__item2{
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.item2__investigacion{
+}
+
+.item2__investigacion img{
+    border-radius: 6px;
+    width: 100%;
+    padding-top: 30px;
+
+}
+
+
+.title__contentItem2{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.title__contentItem2 h4{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.title__contentItem2 p{
+    font-size: 13px;
+}
+
+
+.content__item3{
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+.content__item3 .itm1__content img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.content__item4{
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.content__item4 video{
+    width: 100%;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 800px){
+    .content__Ginvestigacion{
+    }
+    
+    .content__Ginvestigacion .info__investigacion{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .content__Ginvestigacion .info__investigacion .item1__investigacion img{
+    
+        width: 100%;
+    
+    }
+    
+    .content__item2{
+        width: 80%;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    
+    .item2__investigacion{
+        margin-bottom: 30px;
+    }
+    
+    .item2__investigacion img{
+        border-radius: 6px;
+        width: 100%;
+        padding-top: 30px;
+      
+    
+    }
+    
+    
+    .title__contentItem2{
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .title__contentItem2 h4{
+        font-size: 16px;
+        font-weight: 800;
+        margin-left: -40px;
+    }
+    
+    .title__contentItem2 p{
+        font-size: 13px;
+        margin-left: -40px;
+    }
+    
+    
+    .content__item3{
+        width: 80%;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+    
+
+    .itm1__content{
+        grid-column: 1 / 6;
+        display: flex;
+        justify-content: center;
+    }
+    .content__item3 .itm1__content img{
+        width: 80%;
+        cursor: pointer;
+        filter: drop-shadow(-1px 1px 2px #000);
+    }
+    
+    .content__item4{
+        width: 80%;
+        margin: 0px auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+    }
+    
+    .content__item4 video{
+        width: 100%;
+        border-radius: 6px;
+    }
+    
+}

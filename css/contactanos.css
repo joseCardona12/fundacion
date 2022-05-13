@@ -1,0 +1,233 @@
+.content__contactanos{
+
+}
+
+.info__contacto{
+    margin-bottom: 20px;
+
+}
+
+.info__contacto .item1__contacto img{
+    width: 100%;
+}
+
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.itm3__contacto{
+
+
+ 
+
+}
+
+.form{
+    margin-right: 80px;
+    height: 320px;
+}
+
+.formulario{
+
+}
+
+.formulario .nombre,
+.formulario .email,
+.formulario .asunto
+
+{
+    font-size: 16px;
+    display: block;
+    padding-bottom: 10px;
+
+}
+
+.formulario .ingrese__nombre,
+.formulario .ingrese__email,
+.formulario .ingrese__asunto
+
+
+{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    font-family: 'poppins';
+    padding-left: 5px;
+    border-radius: 6px;
+    border: 1px solid rgb(204, 202, 202);
+    font-size: 13px;
+}
+
+.formulario .email{
+    padding-top: 10px;
+}
+
+
+.formulario .asunto{
+    padding-top: 10px;
+}
+
+.formulario .ingrese__asunto{
+    height: 40px;
+}
+
+.formulario__btn{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgb(204, 202, 202);
+    border-radius: 6px;
+    font-family: 'poppins';
+}
+
+.formulario__btn:hover{
+    background-color: rgba(7, 1, 20, 0.87);
+    color: #fff;
+}
+
+.informacion__extra{
+    padding-top: 80px;
+
+}
+
+.informacion__extra p{
+    font-size: 15px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.mapa{
+    grid-column: 1 / 3;
+    margin-bottom: 20px;
+}
+
+.mapa iframe{
+    width: 100%;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 800px){
+    .content__contactanos{
+
+    }
+    
+    .info__contacto{
+        margin-bottom: 20px;
+    
+    }
+    
+    .info__contacto .item1__contacto img{
+        width: 100%;
+    }
+    
+    
+    .contenedor{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 80%;
+        margin: 0px auto;
+    }
+    
+    .itm3__contacto{
+    
+    
+     
+    
+    }
+    
+    .form{
+        margin-right: 0px;
+        height: 320px;
+        grid-column: 1 / 3;
+    }
+    
+    .formulario{
+    
+    }
+    
+    .formulario .nombre,
+    .formulario .email,
+    .formulario .asunto
+    
+    {
+        font-size: 16px;
+        display: block;
+        padding-bottom: 10px;
+    
+    }
+    
+    .formulario .ingrese__nombre,
+    .formulario .ingrese__email,
+    .formulario .ingrese__asunto
+    
+    
+    {
+        width: 100%;
+        height: 30px;
+        outline: none;
+        font-family: 'poppins';
+        padding-left: 5px;
+        border-radius: 6px;
+        border: 1px solid rgb(204, 202, 202);
+        font-size: 13px;
+    }
+    
+    .formulario .email{
+        padding-top: 10px;
+    }
+    
+    
+    .formulario .asunto{
+        padding-top: 10px;
+    }
+    
+    .formulario .ingrese__asunto{
+        height: 40px;
+    }
+    
+    .formulario__btn{
+        width: 100%;
+        padding: 5px;
+        margin-top: 10px;
+        background-color: transparent;
+        border: none;
+        border: 1px solid rgb(204, 202, 202);
+        border-radius: 6px;
+        font-family: 'poppins';
+    }
+    
+    .formulario__btn:hover{
+        background-color: rgba(7, 1, 20, 0.87);
+        color: #fff;
+    }
+    
+    .informacion__extra{
+        grid-column: 1 / 3;
+        padding-top: 20px;
+        margin-bottom: 50px;
+    
+    }
+    
+    .informacion__extra p{
+        display: flex;
+        justify-content: center;
+     
+    }
+    
+    .mapa{
+        grid-column: 1 / 3;
+        margin-bottom: 20px;
+    }
+    
+    .mapa iframe{
+        width: 100%;
+        border-radius: 6px;
+    }
+}
